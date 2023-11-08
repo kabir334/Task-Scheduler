@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Android/G31-Task-Scheduler-main/app/src/main/res/layout/activity_dashboard.xml" value="0.12590579710144928" />
+        <entry key="..\:/Android/G31-Task-Scheduler-main/app/src/main/res/layout/activity_history.xml" value="0.17447916666666666" />
+        <entry key="..\:/Android/G31-Task-Scheduler-main/app/src/main/res/layout/activity_leaderboard.xml" value="0.20416666666666666" />
+        <entry key="..\:/Android/G31-Task-Scheduler-main/app/src/main/res/layout/cfcontesttile.xml" value="0.1721014492753623" />
+        <entry key="..\:/Android/G31-Task-Scheduler-main/app/src/main/res/layout/dialog_completed_theme.xml" value="0.20416666666666666" />
+        <entry key="..\:/Android/G31-Task-Scheduler-main/app/src/main/res/layout/nav_header.xml" value="0.20416666666666666" />
+        <entry key="..\:/Android/G31-Task-Scheduler-main/app/src/main/res/layout/sample_layout.xml" value="0.20416666666666666" />
+        <entry key="..\:/Android/project/app/src/main/res/layout/activity_about.xml" value="0.20018115942028986" />
+        <entry key="..\:/Android/project/app/src/main/res/layout/activity_alarm.xml" value="0.20018115942028986" />
+        <entry key="..\:/Android/project/app/src/main/res/layout/activity_cfreminder.xml" value="0.20018115942028986" />
+        <entry key="..\:/Android/project/app/src/main/res/layout/activity_dashboard.xml" value="0.20018115942028986" />
+        <entry key="..\:/Android/project/app/src/main/res/layout/activity_history.xml" value="0.20018115942028986" />
+        <entry key="..\:/Android/project/app/src/main/res/layout/activity_leaderboard.xml" value="0.18885869565217392" />
+        <entry key="..\:/Android/project/app/src/main/res/layout/activity_main.xml" value="0.1308876811594203" />
+        <entry key="..\:/Android/project/app/src/main/res/layout/activity_save_in_cloud.xml" value="0.20108695652173914" />
+        <entry key="..\:/Android/project/app/src/main/res/layout/activity_sign_in.xml" value="0.20018115942028986" />
+        <entry key="..\:/Android/project/app/src/main/res/layout/activity_sign_up.xml" value="0.20018115942028986" />
+        <entry key="..\:/Android/project/app/src/main/res/layout/activity_splashscreen.xml" value="0.20018115942028986" />
+        <entry key="..\:/Android/project/app/src/main/res/layout/cfcontesttile.xml" value="0.20018115942028986" />
+        <entry key="..\:/Android/project/app/src/main/res/layout/dialog_completed_theme.xml" value="0.25" />
+        <entry key="..\:/Android/project/app/src/main/res/layout/fragment_calendar_view.xml" value="0.20018115942028986" />
+        <entry key="..\:/Android/project/app/src/main/res/layout/fragment_create_task.xml" value="0.25" />
+        <entry key="..\:/Android/project/app/src/main/res/layout/item_task.xml" value="0.20018115942028986" />
+        <entry key="..\:/Android/project/app/src/main/res/layout/sample_layout.xml" value="0.18885869565217392" />
+        <entry key="..\:/G31-Task-Scheduler-67b15d05d46c25d2394e0ab16df647d11224d762/app/src/main/res/layout/activity_about.xml" value="0.25" />
+        <entry key="..\:/G31-Task-Scheduler-67b15d05d46c25d2394e0ab16df647d11224d762/app/src/main/res/layout/activity_achievements.xml" value="0.25" />
+        <entry key="..\:/G31-Task-Scheduler-67b15d05d46c25d2394e0ab16df647d11224d762/app/src/main/res/layout/activity_cfreminder.xml" value="0.17135416666666667" />
+        <entry key="..\:/G31-Task-Scheduler-67b15d05d46c25d2394e0ab16df647d11224d762/app/src/main/res/layout/activity_dashboard.xml" value="0.20416666666666666" />
+        <entry key="..\:/G31-Task-Scheduler-67b15d05d46c25d2394e0ab16df647d11224d762/app/src/main/res/layout/activity_history.xml" value="0.17135416666666667" />
+        <entry key="..\:/G31-Task-Scheduler-67b15d05d46c25d2394e0ab16df647d11224d762/app/src/main/res/layout/activity_leaderboard.xml" value="0.20416666666666666" />
+        <entry key="..\:/G31-Task-Scheduler-67b15d05d46c25d2394e0ab16df647d11224d762/app/src/main/res/layout/activity_sign_in.xml" value="0.16" />
+        <entry key="..\:/G31-Task-Scheduler-67b15d05d46c25d2394e0ab16df647d11224d762/app/src/main/res/layout/activity_sign_up.xml" value="0.17135416666666667" />
+        <entry key="..\:/G31-Task-Scheduler-67b15d05d46c25d2394e0ab16df647d11224d762/app/src/main/res/layout/cfcontesttile.xml" value="0.17135416666666667" />
+        <entry key="..\:/G31-Task-Scheduler-main/app/src/main/res/layout/activity_about.xml" value="0.19021739130434784" />
+        <entry key="..\:/G31-Task-Scheduler-main/app/src/main/res/layout/activity_alarm.xml" value="0.19021739130434784" />
+        <entry key="..\:/G31-Task-Scheduler-main/app/src/main/res/layout/activity_cfreminder.xml" value="0.25" />
+        <entry key="..\:/G31-Task-Scheduler-main/app/src/main/res/layout/activity_dashboard.xml" value="0.20416666666666666" />
+        <entry key="..\:/G31-Task-Scheduler-main/app/src/main/res/layout/activity_history.xml" value="0.20416666666666666" />
+        <entry key="..\:/G31-Task-Scheduler-main/app/src/main/res/layout/activity_leaderboard.xml" value="0.20416666666666666" />
+        <entry key="..\:/G31-Task-Scheduler-main/app/src/main/res/layout/activity_main.xml" value="0.18" />
+        <entry key="..\:/G31-Task-Scheduler-main/app/src/main/res/layout/activity_profile.xml" value="0.22" />
+        <entry key="..\:/G31-Task-Scheduler-main/app/src/main/res/layout/activity_splashscreen.xml" value="0.19067028985507245" />
+        <entry key="..\:/G31-Task-Scheduler-main/app/src/main/res/layout/cfcontesttile.xml" value="0.22" />
+        <entry key="..\:/G31-Task-Scheduler-main/app/src/main/res/layout/dialog_completed_theme.xml" value="0.20416666666666666" />
+        <entry key="..\:/G31-Task-Scheduler-main/app/src/main/res/layout/item_task.xml" value="0.25" />
+        <entry key="..\:/G31-Task-Scheduler-main/app/src/main/res/layout/nav_header.xml" value="0.25" />
+        <entry key="..\:/G31-Task-Scheduler-main/app/src/main/res/layout/sample_layout.xml" value="0.25" />
+        <entry key="..\:/G31-Task-Scheduler-main/app/src/main/res/menu/nav_menu.xml" value="0.20416666666666666" />
+        <entry key="..\:/git/G31-Task-Scheduler/app/src/main/res/drawable/arrow.xml" value="0.2203125" />
+        <entry key="..\:/git/G31-Task-Scheduler/app/src/main/res/drawable/back.xml" value="0.2203125" />
+        <entry key="..\:/git/G31-Task-Scheduler/app/src/main/res/drawable/btn_background.xml" value="0.2203125" />
+        <entry key="..\:/git/G31-Task-Scheduler/app/src/main/res/drawable/btn_border.xml" value="0.2203125" />
+        <entry key="..\:/git/G31-Task-Scheduler/app/src/main/res/drawable/buttonround.xml" value="0.2203125" />
+        <entry key="..\:/git/G31-Task-Scheduler/app/src/main/res/drawable/corner.xml" value="0.2046875" />
+        <entry key="..\:/git/G31-Task-Scheduler/app/src/main/res/drawable/forforget.xml" value="0.2203125" />
+        <entry key="..\:/git/G31-Task-Scheduler/app/src/main/res/drawable/home.xml" value="0.2203125" />
+        <entry key="..\:/git/G31-Task-Scheduler/app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.19166666666666668" />
+        <entry key="..\:/git/G31-Task-Scheduler/app/src/main/res/drawable/layout.xml" value="0.2046875" />
+        <entry key="..\:/git/G31-Task-Scheduler/app/src/main/res/drawable/ronded.xml" value="0.2203125" />
+        <entry key="..\:/git/G31-Task-Scheduler/app/src/main/res/drawable/share_it.xml" value="0.19166666666666668" />
+        <entry key="..\:/git/G31-Task-Scheduler/app/src/main/res/drawable/title_bar.xml" value="0.2203125" />
+        <entry key="..\:/git/G31-Task-Scheduler/app/src/main/res/layout/activity_dashboard.xml" value="0.20416666666666666" />
+        <entry key="..\:/git/G31-Task-Scheduler/app/src/main/res/layout/activity_forgetpass.xml" value="0.18" />
+        <entry key="..\:/git/G31-Task-Scheduler/app/src/main/res/layout/activity_history.xml" value="0.20416666666666666" />
+        <entry key="..\:/git/G31-Task-Scheduler/app/src/main/res/layout/activity_leaderboard.xml" value="0.20416666666666666" />
+        <entry key="..\:/git/G31-Task-Scheduler/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/git/G31-Task-Scheduler/app/src/main/res/layout/activity_profile.xml" value="0.25" />
+        <entry key="..\:/git/G31-Task-Scheduler/app/src/main/res/layout/activity_sign_in.xml" value="0.20416666666666666" />
+        <entry key="..\:/git/G31-Task-Scheduler/app/src/main/res/layout/activity_sign_up.xml" value="0.20416666666666666" />
+        <entry key="..\:/git/G31-Task-Scheduler/app/src/main/res/layout/dialog_completed_theme.xml" value="0.22" />
+        <entry key="..\:/git/G31-Task-Scheduler/app/src/main/res/layout/item_task.xml" value="0.20416666666666666" />
+        <entry key="..\:/git/G31-Task-Scheduler/app/src/main/res/layout/nav_header.xml" value="0.20416666666666666" />
+        <entry key="..\:/git/G31-Task-Scheduler/app/src/main/res/layout/sample_layout.xml" value="0.25" />
+        <entry key="..\:/git/G31-Task-Scheduler/app/src/main/res/menu/menu.xml" value="0.20416666666666666" />
+        <entry key="..\:/git/G31-Task-Scheduler/app/src/main/res/menu/nav_menu.xml" value="0.20416666666666666" />
+        <entry key="..\:/task_leaderboard/app/src/main/res/layout/activity_dashboard.xml" value="0.20416666666666666" />
+        <entry key="..\:/task_leaderboard/app/src/main/res/layout/activity_history.xml" value="0.20416666666666666" />
+        <entry key="..\:/task_leaderboard/app/src/main/res/layout/activity_leaderboard.xml" value="0.25" />
+        <entry key="..\:/task_leaderboard/app/src/main/res/layout/activity_save_in_cloud.xml" value="0.20416666666666666" />
+        <entry key="..\:/task_leaderboard/app/src/main/res/layout/fragment_create_task.xml" value="0.19384057971014493" />
+        <entry key="..\:/task_leaderboard/app/src/main/res/layout/sample_layout.xml" value="0.25" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".activity.leaderboard">
+
+    <TextView
+        android:id="@+id/users_info"
+        android:layout_width="387dp"
+        android:layout_marginTop="1dp"
+        android:layout_height="62dp"
+        android:layout_centerHorizontal="true"
+        android:background="#3854ED"
+        android:fontFamily="@font/allerta_stencil"
+        android:gravity="center"
+        android:text="12/10/2021's  user's info"
+        android:textColor="#F6F6FA"
+        android:textSize="24sp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recview"
+        android:layout_width="401dp"
+        android:layout_height="660dp"
+        android:layout_below="@+id/users_info"
+        android:padding="5dp" />
+
+</RelativeLayout>

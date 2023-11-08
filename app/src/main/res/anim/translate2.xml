@@ -1,0 +1,6 @@
+<translate xmlns:android="http://schemas.android.com/apk/res/android"
+    android:duration="3000"
+    android:fromXDelta="+500"
+    android:interpolator="@android:anim/linear_interpolator"
+    android:repeatMode="restart"
+    android:toXDelta="0" />

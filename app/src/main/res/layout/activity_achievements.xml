@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.Achievements"
+    android:background="@drawable/acv_bg">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/rank"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="40dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_centerHorizontal="true"
+        android:textSize="27dp"
+
+        />
+    <androidx.cardview.widget.CardView
+        android:id="@+id/pbar"
+        android:layout_below="@+id/rank"
+        android:layout_marginTop="40dp"
+        android:layout_marginHorizontal="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:elevation="10dp"
+        app:cardCornerRadius="15dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Complete 20 more tasks to complete this level"
+                android:textSize="15dp"
+                android:gravity="center"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_centerHorizontal="true"
+                android:layout_marginHorizontal="15dp"
+                android:layout_marginTop="10dp"
+
+                android:id="@+id/more"/>
+            <ImageView
+                android:id="@+id/nxticon"
+                android:layout_below="@id/more"
+                android:layout_marginTop="15dp"
+                android:layout_marginHorizontal="20dp"
+                android:layout_width="40dp"
+                android:layout_height="40dp"/>
+            <ProgressBar
+                android:id="@+id/prog"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/nxticon"
+                android:layout_below="@id/more"
+                android:layout_marginRight="25dp"
+                android:layout_marginTop="25dp"
+
+                style="@style/Widget.AppCompat.ProgressBar.Horizontal"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/nxticon"
+                android:id="@+id/nxtrank"
+                android:textColor="#717171"
+                android:layout_centerHorizontal="true"
+                android:layout_marginHorizontal="20dp"
+                />
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimaryDark"
+        android:text="Congratulations! \nYou have earned the"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/congo"
+        android:layout_below="@id/pbar"
+        android:layout_marginTop="40dp"
+        android:textSize="25dp"/>
+    <ImageView
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:id="@+id/curicon"
+        android:layout_below="@id/congo"
+        android:layout_centerHorizontal="true"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/currank"
+        android:layout_below="@id/curicon"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="25dp"
+        />
+
+</RelativeLayout>

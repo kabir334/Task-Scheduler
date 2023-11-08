@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.forgetpass">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:id="@+id/first"
+        android:background="#4961E3"
+        android:layout_height="259dp">
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="305dp"
+        android:layout_height="257dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="162dp"
+        android:background="@drawable/layout">
+
+        <TextView
+            android:id="@+id/fo"
+            android:layout_width="275dp"
+            android:layout_height="51dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:fontFamily="sans-serif"
+            android:gravity="center"
+            android:text="Forget Password"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="25dp">
+        </TextView>
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="285dp"
+            android:layout_height="58dp"
+            android:layout_below="@+id/fo"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/btn_border"
+            android:hint="Enter your email"
+            android:textSize="15dp">
+        </EditText>
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="285dp"
+            android:layout_height="58dp"
+            android:layout_below="@id/email"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/buttonround"
+            android:text="Reset password"
+            android:textColor="@color/white">
+        </Button>
+
+    </RelativeLayout>
+</RelativeLayout>

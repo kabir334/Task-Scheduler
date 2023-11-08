@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical"
+    tools:context=".activity.cfreminder">
+    <RelativeLayout
+        android:id="@+id/text"
+        android:background="@drawable/btn_border"
+        android:layout_width="390dp"
+        android:layout_height="103dp">
+
+        <ImageView
+            android:layout_width="159dp"
+            android:id="@+id/image"
+            android:layout_height="103dp"
+            android:src="@drawable/contest">
+        </ImageView>
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="-32dp"
+            android:layout_toRightOf="@+id/image"
+            android:fontFamily="@font/supermercado_one"
+            android:gravity="center"
+            android:text="Upcoming contest in codeforce"
+            android:textColor="#0C0C0C"
+            android:textSize="25sp">
+        </TextView>
+
+    </RelativeLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycleview"
+        android:layout_below="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</RelativeLayout>

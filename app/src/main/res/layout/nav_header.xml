@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/design_default_color_primary"
+    android:layout_height="156dp">
+
+    <com.mikhaellopez.circularimageview.CircularImageView
+        android:id="@+id/profilepic"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/person"
+        app:civ_border="false" />
+
+    <TextView
+        android:id="@+id/profilename"
+        android:layout_width="161dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/profilepic"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="12dp"
+        android:textSize="18dp"
+        android:fontFamily="sans-serif"
+        android:text="Set your name"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/biog"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/profilename"
+        android:layout_marginLeft="18dp"
+        android:fontFamily="sans-serif"
+        android:text="Set your bio"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+</RelativeLayout>

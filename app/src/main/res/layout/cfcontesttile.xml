@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:padding="7dp"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="379dp"
+        android:layout_height="112dp"
+        android:backgroundTint="#5E9BE6"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="10dp"
+        app:cardMaxElevation="10dp"
+        tools:ignore="MissingConstraints">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/contitle"
+                android:layout_width="96dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:padding="4dp"
+                android:textAlignment="center"
+                android:textColor="#100F0F"
+                android:textSize="16sp"
+                app:layout_constraintWidth_percent="0.35" />
+
+            <TextView
+                android:id="@+id/time"
+                android:layout_width="70dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@+id/contitle"
+                android:gravity="center"
+                android:padding="4dp"
+                android:textAlignment="center"
+                android:textColor="#100F0F"
+                android:textSize="16sp"
+                app:layout_constraintLeft_toRightOf="@+id/contitle"
+                app:layout_constraintWidth_percent="0.27" />
+
+            <TextView
+                android:id="@+id/link"
+                android:layout_width="58dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@+id/time"
+                android:gravity="center"
+                android:padding="4dp"
+
+                android:textAlignment="center"
+                android:textColor="#100F0F"
+                android:textSize="15sp"
+                app:layout_constraintLeft_toRightOf="@+id/time"
+                app:layout_constraintWidth_percent="0.25" />
+
+            <TextView
+                android:id="@+id/status"
+                android:layout_width="97dp"
+                android:layout_height="match_parent"
+                android:layout_alignRight="@+id/link"
+                android:layout_marginLeft="0dp"
+                android:layout_marginRight="-89dp"
+                android:gravity="center"
+                android:textColorLink="#CC0000"
+                android:padding="4dp"
+                android:textAlignment="center"
+                android:textColor="#100F0F"
+                android:textSize="18sp"
+                app:layout_constraintLeft_toRightOf="@+id/link"
+                app:layout_constraintWidth_percent="0.1" />
+        </RelativeLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    android:layout_height="match_parent"
+    tools:context=".activity.about">
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="232dp"
+        android:layout_height="67dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/autour_one"
+        android:gravity="center"
+        android:text="Task Scheduler app"
+        android:textColor="#F10808"
+        android:textSize="25sp"></TextView>
+
+    <ImageView
+        android:layout_width="106dp"
+        android:layout_height="111dp"
+        android:layout_marginLeft="-3dp"
+        android:layout_toRightOf="@id/name"
+        android:src="@drawable/task"></ImageView>
+
+    <TextView
+        android:id="@+id/about"
+        android:layout_width="123dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/name"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/autour_one"
+        android:gravity="center_vertical"
+        android:padding="5dp"
+        android:text="About:"
+        android:textColor="#F31010"
+        android:textSize="20dp"></TextView>
+
+    <ScrollView
+        android:id="@+id/first_scroll"
+        android:layout_width="358dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/about">
+
+        <TextView
+            android:id="@+id/details"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_below="@+id/about"
+            android:padding="5dp"
+            android:text="This App helps you to keep track of your tasks and reminds you to do those in time. You can see how much productive you have been in recent days by seeing how many tasks you have completed in previous days. Also it shows upcoming CF contests"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="15dp"
+            android:textStyle="italic">
+        </TextView>
+
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/about2"
+        android:layout_width="123dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/first_scroll"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/autour_one"
+        android:gravity="center_vertical"
+        android:padding="5dp"
+        android:text="Guide:"
+        android:textColor="#FA1616"
+        android:textSize="20dp"></TextView>
+
+    <ScrollView
+        android:id="@+id/second"
+        android:layout_width="379dp"
+        android:layout_height="177dp"
+        android:layout_below="@id/about2">
+
+        <TextView
+            android:id="@+id/guide"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:padding="5dp"
+            android:text="For new user, \n In Tasklist section, you can add your task in perticular date and time.Leaderboard section only display all users completed task on particular day. Unless you click on leaderboard your newly completed task would not be added in cloud.In history section, we use local storage for saving date-wise data as it can use in offline . Thanks for using our Apps."
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="15dp"
+            android:textStyle="italic">
+        </TextView>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/about3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/second"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/autour_one"
+        android:gravity="center_vertical"
+        android:padding="5dp"
+        android:text="Contributors:"
+        android:textColor="#F60808"
+        android:textSize="20dp">
+    </TextView>
+
+    <TextView
+        android:layout_width="203dp"
+        android:layout_height="48dp"
+        android:layout_below="@id/second"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@+id/about3"
+        android:gravity="start"
+        android:text="         Kabir Ahmed&amp;\nMahedi Hassan Rabby"
+        android:textColor="#131313"
+        android:textSize="13dp">
+    </TextView>
+
+</RelativeLayout>

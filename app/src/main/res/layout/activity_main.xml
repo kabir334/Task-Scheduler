@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4961E3"
+    android:orientation="vertical"
+    tools:context=".activity.MainActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="62dp">
+
+        <LinearLayout
+            android:id="@+id/linear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/headline"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:background="@drawable/ronded"
+                android:fontFamily="@font/aldrich"
+                android:gravity="center"
+                android:text="Task Enqueue"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="28sp"
+                android:textStyle="bold"
+                tools:ignore="MissingPrefix" />
+
+        </LinearLayout>
+
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="5dp"
+        android:background="#4961E3"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:id="@+id/rela"
+                android:layout_height="200dp">
+
+                <TextView
+                    android:id="@+id/suggest"
+                    android:layout_width="228dp"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:fontFamily="sans-serif-medium"
+                    android:text="Suggested Task"
+                    android:gravity="center"
+                    android:textColor="#FBFBFB"
+                    android:textSize="25dp">
+                </TextView>
+
+                <TextView
+                    android:id="@+id/first"
+                    android:layout_width="150dp"
+                    android:layout_height="47dp"
+                    android:layout_below="@+id/suggest"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/corner"
+                    android:drawableLeft="@drawable/arrow"
+                    android:text="Research"
+                    android:textColor="#7C6B6B"
+                    android:textSize="25dp">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/FIRST"
+                    android:layout_width="150dp"
+                    android:layout_height="47dp"
+                    android:layout_below="@+id/suggest"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_toRightOf="@+id/first"
+                    android:background="@drawable/corner"
+                    android:drawableLeft="@drawable/arrow"
+                    android:text="Reading"
+                    android:textColor="#7C6B6B"
+                    android:textSize="25dp">
+                </TextView>
+
+                <TextView
+                    android:id="@+id/second"
+                    android:layout_width="150dp"
+                    android:layout_height="47dp"
+                    android:layout_below="@+id/first"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/corner"
+                    android:drawableLeft="@drawable/arrow"
+                    android:text="contest"
+                    android:textColor="#7C6B6B"
+                    android:textSize="25dp">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/SECOND"
+                    android:layout_width="150dp"
+                    android:layout_height="47dp"
+                    android:layout_below="@+id/FIRST"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_toRightOf="@+id/second"
+                    android:background="@drawable/corner"
+                    android:drawableLeft="@drawable/arrow"
+                    android:text="project"
+                    android:textColor="#7C6B6B"
+                    android:textSize="25dp"></TextView>
+
+                <TextView
+                    android:id="@+id/third"
+                    android:layout_width="150dp"
+                    android:layout_height="47dp"
+                    android:layout_below="@+id/second"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/corner"
+                    android:drawableLeft="@drawable/arrow"
+                    android:text="meeting"
+                    android:textColor="#7C6B6B"
+                    android:textSize="25dp">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/THIRD"
+                    android:layout_width="150dp"
+                    android:layout_height="47dp"
+                    android:layout_below="@+id/SECOND"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_toRightOf="@+id/second"
+                    android:background="@drawable/corner"
+                    android:drawableLeft="@drawable/arrow"
+                    android:text="class"
+                    android:textColor="#7C6B6B"
+                    android:textSize="25dp">
+                </TextView>
+            </RelativeLayout>
+
+            <ImageView
+                android:id="@+id/noDataImage"
+                android:layout_width="290dp"
+                android:layout_height="290dp"
+                android:layout_marginTop="50dp"
+                android:layout_gravity="center" />
+
+            <TextView
+                android:id="@+id/relaxtext"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:layout_marginTop="425dp"
+                android:fontFamily="@font/allerta"
+                android:gravity="center_horizontal"
+                android:text="WOW,you have no task today!!"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/taskRecycler"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+        </FrameLayout>
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/addTask"
+            android:layout_gravity="bottom|right"
+            android:background="#071660"
+            android:src="@drawable/ad"
+            app:fabSize="auto"
+
+            android:layout_marginBottom="15dp">
+
+        </com.google.android.material.floatingactionbutton.FloatingActionButton>
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

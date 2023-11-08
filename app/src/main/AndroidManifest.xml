@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.codegama.Taskscheduler">
+
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+    <application
+        android:name=".AppController"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Task scheduler"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".activity.forgetpass"
+            android:exported="true" />
+        <activity
+            android:name=".activity.profile"
+            android:exported="true" />
+        <activity android:name=".activity.Achievements" />
+        <activity
+            android:name=".activity.leaderboard"
+            android:exported="true" />
+        <activity android:name=".activity.about" />
+        <activity
+            android:name=".activity.dashboard"
+            android:exported="true" />
+        <activity
+            android:name=".activity.history"
+            android:exported="true" />
+        <activity
+            android:name=".activity.cfreminder"
+            android:exported="true" />
+        <activity
+            android:name=".activity.MainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activity.sign_in"
+            android:exported="true" />
+        <activity
+            android:name=".activity.sign_up"
+            android:exported="true" />
+        <activity android:name=".activity.AlarmActivity" />
+        <activity android:name=".activity.splashscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <receiver
+            android:name=".broadcastReceiver.AlarmBroadcastReceiver"
+            android:enabled="false">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name=".broadcastReceiver.AlarmService"
+            android:enabled="true"
+            android:exported="true" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
